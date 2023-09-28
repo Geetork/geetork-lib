@@ -19,7 +19,7 @@ body {
     --primary-color-solid-active: #0274DC;
     --secondary-color-solid-acitve: #1A1B1C;
     --danger-color-solid-active: #8A1D1D;
-    --white-color-with-opacity: rgb(255, 255, 255, 0.71);
+    --white-color-with-opacity: rgb(255, 255, 255, 0.7);
     --primary-color-with-opacity: rgb(54, 159, 255, 0.12);
     --secondary-color-with-opacity: rgb(48, 52, 59, 0.5);
     --danger-color-with-opacity: rgb(211, 42, 42, 0.12);
