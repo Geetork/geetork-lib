@@ -30,7 +30,8 @@ const Button: React.FC<PropsWithChildren<IButton>> = (props) => {
 
             {
                 props.children 
-                    && props.iconType !== 'standalone' ? <span>{props.children}</span> : null
+                    && props.iconType !== 'standalone' ?
+                        <span>{props.children}</span> : null
             }
 
             {
