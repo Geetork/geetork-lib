@@ -27,7 +27,6 @@ const Button: React.FC<PropsWithChildren<IButton>> = (props) => {
                     && ['leading', 'leadingTrailing', 'standalone'].includes(props.iconType)
                     && <SVG src={IconPlus} className='icon'/>
             }
-
             {
                 props.children 
                     && props.iconType !== 'standalone' ?
