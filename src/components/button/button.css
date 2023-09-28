@@ -1,0 +1,217 @@
+.button {
+    display: block;
+    border: 1px solid;
+    width: fit-content;
+    font-family: 'SourceSans3-Medium', sans-serif;
+    font-size: 16px;
+    border: none;
+	cursor: pointer;
+	outline: none;
+    border-radius: 8px;
+}
+
+.button__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon__brackets {
+    transform: rotate(90deg);
+}
+
+.button__size_small {
+    padding: 4px 8px;
+    gap: 2px;
+}
+
+.button__size_medium {
+    padding: 8px 10px;
+    gap: 6px;
+}
+
+.button__size_large {
+    padding: 12px 20px;
+    gap: 12px;
+}
+
+.button__size_small.button__icon_trailing {
+    padding: 4px 2px 4px 8px; 
+}
+
+.button__size_small.button__icon_leading {
+    padding: 4px 8px 4px 2px; 
+}
+
+.button__size_medium.button__icon_trailing {
+    padding: 8px 4px 8px 12px; 
+}
+
+.button__size_medium.button__icon_leading {
+    padding: 8px 12px 8px 4px; 
+}
+
+.button__size_large.button__icon_trailing {
+    padding: 12px 12px 12px 20px; 
+}
+
+.button__size_large.button__icon_leading {
+    padding: 12px 20px 12px 12px; 
+}
+
+.button__style_primary {
+    background: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.button__style_danger {
+    background: var(--danger-color);
+    color: var(--danger-color);
+}
+
+.button__type_solid {
+    color: white;
+}
+
+.button__type_outline.button__style_primary {
+    border: 2px solid var(--primary-color-with-opacity);
+}
+
+.button__type_outline.button__style_danger {
+    border: 2px solid var(--danger-color-with-opacity);
+}
+
+.button__type_soft.button__style_primary {
+    background: var(--primary-color-with-opacity);
+}
+
+.button__type_soft.button__style_danger {
+    background: var(--danger-color-with-opacity);
+}
+
+
+.button__style_primary:hover {
+    background: var(--primary-color-with-opacity);
+}
+
+.button__style_danger:hover {
+    background: var(--danger-color-with-opacity);
+}
+
+.button__type_soft.button__style_primary:hover {
+    background: var(--primary-color-active);
+}
+
+.button__type_soft.button__style_danger:hover {
+    background: var(--danger-color-active);
+}
+
+@media (prefers-color-scheme: dark) {
+    .button__style_secondary {
+        background: var(--secondary-color);
+        color: var(--white-color-with-opacity);
+    }
+ 
+    .button__type_outline.button__style_secondary {
+        border: 2px solid var(--secondary-color);
+    }
+
+    .button__type_soft.button__style_secondary {
+        background: var(--secondary-color-with-opacity);
+    }
+
+    .button__type_ghost, .button__type_outline {
+        background: transparent;
+    }
+
+    .button__style_secondary:hover {
+        background: var(--secondary-color-with-opacity);
+    }
+
+    .button__type_soft.button__style_secondary:hover {
+        background: var(--secondary-color-active);
+    }
+
+    .button__type_solid.button__style_primary:hover {
+        background: var(--primary-color-solid-active);
+    }
+
+    .button__type_solid.button__style_secondary:hover {
+        background: var(--secondary-color-solid-active);
+    }
+
+    .button__type_solid.button__style_danger:hover {
+        background: var(--danger-color-solid-active);
+    }
+
+    .button__disabled {
+        cursor: auto;
+        pointer-events: none;
+        color: var(--color-text-contrast-low);
+    }
+
+    .button__disabled.button__type_outline {
+        background: transparent;
+        border: 2px solid var(--secondary-color);
+    }
+
+    .button__disabled.button__type_solid,
+    .button__disabled.button__type_soft {
+        background: var(--secondary-color);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .button__style_secondary {
+        background: var(--secondary-color-light);
+        color: var(--secondary-color);
+    }
+
+    .button__type_outline.button__style_secondary {
+        border: 2px solid var(--secondary-color-light);
+    }
+
+    .button__type_soft.button__style_secondary {
+        background: var(--secondary-color-light-with-opacity);
+    }
+
+    .button__type_ghost, .button__type_outline {
+        background: transparent;
+    }
+
+    .button__style_secondary:hover {
+        background: var(--secondary-color-light-active);
+    }
+
+    .button__type_soft.button__style_secondary:hover {
+        background: var(--secondary-color-light-active);
+    }
+
+    .button__type_solid.button__style_primary:hover {
+        background: var(--primary-color-solid-active);
+    }
+
+    .button__type_solid.button__style_secondary:hover {
+        background: var(--secondary-color-light-active);
+    }
+
+    .button__type_solid.button__style_danger:hover {
+        background: var(--danger-color-solid-active);
+    }
+
+    .button__disabled.button__type_outline {
+        background: transparent;
+        border: 2px solid var(--secondary-color-light);
+    }
+
+    .button__disabled {
+        cursor: auto;
+        pointer-events: none;
+        color: var(--color-text-contrast-low);
+    }
+
+    .button__disabled.button__type_solid,
+    .button__disabled.button__type_soft {
+        background: var(--secondary-color-light);
+    }
+}
