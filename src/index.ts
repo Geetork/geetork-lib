@@ -1,6 +1,6 @@
-import Button, { IButton } from "./components/button/button";
+import Button, { IButton } from "./button";
 import './index.css';
-import './components/button/button.css';
+import './button.css';
 
 export {
     Button,

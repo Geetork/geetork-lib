@@ -61,4 +61,5 @@ Default.args = {
   style: 'primary',
   iconType: 'none',
   disabled: false,
+  size: 'large',
 };
