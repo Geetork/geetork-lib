@@ -14,8 +14,8 @@
     --danger-color-with-opacity: rgb(211, 42, 42, 0.12);
 
     --secondary-color-light: #dddee0;
-    --secondary-color-light-with-opacity: rgb(221, 222, 224, 0.71);
-    --secondary-color-light-active:  rgba(122, 125, 131, 0.7);
+    --secondary-color-light-with-opacity: rgb(221, 222, 224, 0.7);
+    --secondary-color-light-active:  rgba(122, 125, 131, 0.71);
 
     --color-text-contrast-low: #94979A;
 }
