@@ -86,9 +86,7 @@
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "^7.22.15",
     "@codexteam/icons": "^0.3.0",
-    "css-houdini-squircle": "^0.3.0",
-    "react-inlinesvg": "^4.0.4",
-    "react-svg": "^16.1.26"
+    "react-inlinesvg": "^4.0.4"
   },
   "repository": {
     "type": "git",
