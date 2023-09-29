@@ -75,12 +75,13 @@
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
     "rollup-plugin-postcss": "^4.0.2",
+    "semantic-release": "^22.0.5",
+    "semantic-release-tamia": "^3.0.0",
     "size-limit": "^9.0.0",
     "storybook": "^7.4.5",
     "tsdx": "^0.14.1",
     "tslib": "^2.6.2",
-    "typescript": "^3.9.10",
-    "semantic-release": "^22.0.5"
+    "typescript": "^3.9.10"
   },
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "^7.22.15",
