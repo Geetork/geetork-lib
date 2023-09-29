@@ -12,9 +12,9 @@ Go to [playground](https://geetork.github.io/geetork-lib/?path=/docs/button--doc
 
 | Propery | Values |
 | --- | --- |
-| type ||
+| type | 'solid' /| 'outline' /| 'soft' /| 'ghost'|
 | size ||
-| style ||
-| iconType ||
-| disabled ||
-| onClick ||
+| style | 'primary' /| 'secondary' /| 'danger' |
+| iconType | 'none' /| 'leading' /| 'trailing' /| 'leadingTrailer' /| 'standalone'|
+| disabled | true /| false |
+| onClick | () => void|
