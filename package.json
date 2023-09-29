@@ -92,5 +92,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Geetork/geetork-lib.git"
+  },
+  "release": {
+    "analyzeCommits": "semantic-release-tamia/analyzeCommits",
+    "generateNotes": "semantic-release-tamia/generateNotes",
+    "verifyRelease": "semantic-release-tamia/verifyRelease"
   }
 }
