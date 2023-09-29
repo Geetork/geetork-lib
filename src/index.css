@@ -5,10 +5,6 @@
     font-weight: normal;
 } */
 
-body {
-    background: #1E1E1E;
-}
-
 :root {
     --primary-color: #369FFF;
     --secondary-color: #3B4049;
