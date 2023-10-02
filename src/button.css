@@ -41,7 +41,7 @@
 }
 
 .button__size_small {
-    padding: 2px 8px;
+    padding: 1.5px 8px 2px 8px;
     gap: 1px;
 }
 
@@ -56,11 +56,11 @@
 }
 
 .button__size_small.button__icon_trailing {
-    padding: 2px 2px 2px 8px; 
+    padding: 1.5px 2px 2px 8px; 
 }
 
 .button__size_small.button__icon_leading {
-    padding: 2px 8px 2px 2px; 
+    padding: 1.5px 8px 2px 2px; 
 }
 
 .button__size_small.button__icon_standalone {
@@ -68,7 +68,7 @@
 }
 
 .button__size_small.button__icon_leadingTrailing {
-    padding: 2px 2px; 
+    padding: 1.5px 2px 2px 2px; 
 }
 
 
@@ -91,15 +91,15 @@
 
 
 .button__size_large.button__icon_trailing {
-    padding: 10px 12px 10px 18px; 
+    padding: 9.5px 12px 10px 18px; 
 }
 
 .button__size_large.button__icon_leading {
-    padding: 10px 18px 10px 12px; 
+    padding: 9.5px 18px 10px 12px; 
 }
 
 .button__size_large.button__icon_leadingTrailing {
-    padding: 10px 10.5px; 
+    padding: 9.5px 10.5px 10px 10.5px; 
 }
 
 .button__size_large.button__icon_standalone {
